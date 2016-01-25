@@ -1,0 +1,5 @@
+maven-build:
+  script:
+    - /usr/local/maven/bin/mvn clean jboss-as:deploy 
+  tags:
+    - rtsng
